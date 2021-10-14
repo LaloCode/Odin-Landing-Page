@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos, .header-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+  margin: 0;
+}
+
+.logo-image {
+  width: 48px;
+  height: 48px;
+}
+
+.header-content {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.header-main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.header-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.sign-up-button {
+  width: 110px;
+  border-radius: 6px;
+  padding: 7px;
+  color: #F9FAF8;
+  font-weight: bolder;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-style: solid;
+}
+
+.header-image {
+  height: 250px;
+  width: 600px;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+.main-section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indie-game-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.images-with-subtext {
+  display: flex;
+  justify-content: center;
+}
+
+.square-image-small {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.image-subtext {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  width: 60%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.citation {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+  margin-top: 0;
+}
+
+.main-section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.sign-up-section {
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.white-border {
+  border-color: white;
+  border-width: 3px;
+}
+
+.footer { 
+  margin: 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+li {
+  margin-right: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
